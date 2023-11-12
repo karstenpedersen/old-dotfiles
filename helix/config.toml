@@ -1,0 +1,24 @@
+theme = "rose_pine"
+
+[editor]
+line-number = "relative"
+mouse = false
+middle-click-paste = false
+cursorline = true
+auto-pairs = false
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name", "version-control"]
+center = []
+right = ["diagnostics", "selections", "position", "position-percentage", "file-encoding"]
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.lsp]
+display-inlay-hints = true
+
+[keys.normal."space"]
+o = "file_picker_in_current_buffer_directory"
